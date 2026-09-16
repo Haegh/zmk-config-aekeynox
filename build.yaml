@@ -43,11 +43,11 @@ include:
   ##
 
     # Quacken Zero + SparkFun RP2040
-#  - board: sparkfun_pro_micro_rp2040//zmk
-#    shield: quacken_zero
-#    artifact-name: quacken_zero
-#    snippet: studio-rpc-usb-uart
-#    cmake-args: &cmake-args -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_POINTING=y#
+  - board: sparkfun_pro_micro_rp2040//zmk
+    shield: quacken_zero
+    artifact-name: quacken_zero
+    snippet: studio-rpc-usb-uart
+    cmake-args: &cmake-args -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_POINTING=y#
 
 #    # Totem + XIAO BLE
 #  - board: xiao_ble//zmk
@@ -75,7 +75,7 @@ include:
     cmake-args: *cmake-args
   - board: nrfmicro//nrf52840//zmk
     shield: corne_right
-    artifact-name: corne_right#
+    artifact-name: corne_right
 
 #    # Sweep + nice!nano v2
 #  - board: nice_nano@2//zmk
