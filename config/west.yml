@@ -28,8 +28,8 @@ manifest:
       #    (unmerged PRs, custom patches…)
       # More info on the changes present can be found on the fork’s README page.
     - name: zmk
-      remote: zmkfirmware
-      revision: v0.3
+      remote: NuclearSquid
+      revision: aekeynox
       import: app/west.yml
 
       ###
