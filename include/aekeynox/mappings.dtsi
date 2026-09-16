@@ -38,7 +38,7 @@
   };
 
 &caps_word {
-  no-default-keys;
+  // no-default-keys;
   shift-list = <CAPS_WORD_SHIFT_LIST>;
   continue-list = <
     CAPS_WORD_CONTINUE_LIST
