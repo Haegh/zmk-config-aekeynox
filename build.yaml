@@ -174,9 +174,7 @@ include:
     shield: sharp_mip
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: piantor_pro_bt_left
-    cmake-args: *cmake-args#
   - board: piantor_pro_bt_right
     shield: sharp_mip
     snippet: studio-rpc-usb-uart
     artifact-name: piantor_pro_bt_right
-    cmake-args: *cmake-args#
